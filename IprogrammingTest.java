@@ -84,7 +84,7 @@ const updateSql =
 
 
 2—>
-    SELECT emp_dept, COUNT(*)
+    SELECT department_id, COUNT(*)
     FROM emp_details
-    GROUP BY emp_dept;
+    GROUP BY department_id;
 }
